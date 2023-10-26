@@ -1,0 +1,281 @@
+======================================================
+total:
+======================================================
+
+
+Parameter 'simSeconds':
+  kobold: 0.115759
+  hmesi: 0.154847
+Difference: 0.25242981782017093
+25.242981782017093%
+
+Parameter 'simTicks':
+  kobold: 115758519000
+  hmesi: 154847099000
+Difference: 0.2524334020619915
+25.24334020619915%
+
+Parameter 'simInsts':
+  kobold: 44605214
+  hmesi: 44603947
+Difference: -2.8405557920692535e-05
+-0.0028405557920692533%
+
+Parameter 'L2_Replacement':
+  kobold: 32
+  hmesi: 36
+Difference: 0.1111111111111111
+11.11111111111111%
+
+Parameter 'L1Cache.miss_mach_latency_hist_seqr::mean':
+  kobold: 26.384145
+  hmesi: 48.792829
+Difference: 0.45926183128262554
+45.92618312826255%
+
+Parameter 'L2Cache.miss_mach_latency_hist_seqr::mean':
+  kobold: 76.062043
+  hmesi: 76.390145
+Difference: 0.0042950828277652986
+0.42950828277652986%
+
+Parameter 'total_cycles':
+  kobold: 462993374
+  hmesi: 619347606
+Difference: 0.2524498851457577
+25.244988514575773%
+
+Parameter 'max_per_cpu_cycles':
+  kobold: 115758519
+  hmesi: 154847099
+Difference: 0.2524334020619915
+25.24334020619915%
+
+
+======================================================
+L2Caches:
+======================================================
+
+
+
+=======================
+Instance '0':
+=======================
+
+Parameter 'L2_hits':
+  kobold: 884199
+  hmesi: 34476
+Difference: -24.64679777236338
+-2464.679777236338%
+
+Parameter 'L2_misses':
+  kobold: 885220
+  hmesi: 1734921
+Difference: 0.48976351084573877
+48.97635108457388%
+
+Parameter 'evictions':
+  kobold: 0
+  hmesi: 0
+
+
+=======================
+Instance '1':
+=======================
+
+Parameter 'L2_hits':
+  kobold: 883719
+  hmesi: 34002
+Difference: -24.99020645844362
+-2499.0206458443618%
+
+Parameter 'L2_misses':
+  kobold: 884052
+  hmesi: 1733696
+Difference: 0.4900766916460556
+49.00766916460556%
+
+Parameter 'evictions':
+  kobold: 0
+  hmesi: 0
+
+
+======================================================
+L3Cache:
+======================================================
+
+
+Parameter 'L3_hits':
+  kobold: 0
+  hmesi: 0
+
+Parameter 'L3_misses':
+  kobold: 0
+  hmesi: 0
+
+Parameter 'L3_evictions':
+  kobold: 0
+  hmesi: 0
+
+
+======================================================
+per_cpu_data:
+======================================================
+
+
+=======================
+Instance '0':
+=======================
+
+Parameter 'per_cpu_cycles':
+  kobold: 115758519
+  hmesi: 154847099
+Difference: 0.2524334020619915
+25.24334020619915%
+
+Parameter 'numInsts':
+  kobold: 11194060
+  hmesi: 11192938
+Difference: -0.00010024177744931671
+-0.01002417774493167%
+
+Parameter 'idleFraction':
+  kobold: 0.593108
+  hmesi: 0.679558
+Difference: 0.12721504271894382
+12.721504271894382%
+
+Parameter 'm_demand_hits':
+  kobold: 15461279
+  hmesi: 15459592
+Difference: -0.00010912319031446626
+-0.010912319031446627%
+
+Parameter 'm_demand_misses':
+  kobold: 885492
+  hmesi: 885494
+Difference: 2.2586262583371543e-06
+0.00022586262583371543%
+
+Parameter 'm_evictions':
+  kobold: 1515
+  hmesi: 1513
+Difference: -0.0013218770654329147
+-0.13218770654329146%
+
+
+=======================
+Instance '1':
+=======================
+
+Parameter 'per_cpu_cycles':
+  kobold: 115745081
+  hmesi: 154833705
+Difference: 0.2524555231691963
+25.24555231691963%
+
+Parameter 'numInsts':
+  kobold: 11139334
+  hmesi: 11139231
+Difference: -9.246598800222385e-06
+-0.0009246598800222384%
+
+Parameter 'idleFraction':
+  kobold: 0.742723
+  hmesi: 0.680795
+Difference: -0.0909642403366652
+-9.09642403366652%
+
+Parameter 'm_demand_hits':
+  kobold: 15372577
+  hmesi: 15372445
+Difference: -8.586792797111975e-06
+-0.0008586792797111975%
+
+Parameter 'm_demand_misses':
+  kobold: 883876
+  hmesi: 883864
+Difference: -1.3576749364155572e-05
+-0.0013576749364155572%
+
+Parameter 'm_evictions':
+  kobold: 6
+  hmesi: 6
+
+
+=======================
+Instance '2':
+=======================
+
+Parameter 'per_cpu_cycles':
+  kobold: 115744887
+  hmesi: 154833401
+Difference: 0.25245530839951
+25.245530839951%
+
+Parameter 'numInsts':
+  kobold: 11138413
+  hmesi: 11138473
+Difference: 5.386734788511854e-06
+0.0005386734788511854%
+
+Parameter 'idleFraction':
+  kobold: 0.594751
+  hmesi: 0.680774
+Difference: 0.1263605836885662
+12.63605836885662%
+
+Parameter 'm_demand_hits':
+  kobold: 15371287
+  hmesi: 15371384
+Difference: 6.3104272198261395e-06
+0.000631042721982614%
+
+Parameter 'm_demand_misses':
+  kobold: 883814
+  hmesi: 883817
+Difference: 3.3943678385910207e-06
+0.00033943678385910206%
+
+Parameter 'm_evictions':
+  kobold: 8
+  hmesi: 8
+
+
+=======================
+Instance '3':
+=======================
+
+Parameter 'per_cpu_cycles':
+  kobold: 115744887
+  hmesi: 154833401
+Difference: 0.25245530839951
+25.245530839951%
+
+Parameter 'numInsts':
+  kobold: 11133407
+  hmesi: 11133305
+Difference: -9.161699962410085e-06
+-0.0009161699962410084%
+
+Parameter 'idleFraction':
+  kobold: 0.742775
+  hmesi: 0.680834
+Difference: -0.09097812388922984
+-9.097812388922984%
+
+Parameter 'm_demand_hits':
+  kobold: 15363649
+  hmesi: 15363507
+Difference: -9.242681374766843e-06
+-0.0009242681374766842%
+
+Parameter 'm_demand_misses':
+  kobold: 883889
+  hmesi: 883886
+Difference: -3.3941028594185225e-06
+-0.00033941028594185223%
+
+Parameter 'm_evictions':
+  kobold: 6
+  hmesi: 6

@@ -1,0 +1,64 @@
+{
+    "total": {
+        "simSeconds": 0.038865,
+        "simTicks": 38864760000,
+        "simInsts": 11216743,
+        "L1_Invalidate::total": 3,
+        "L2_Replacement": 36,
+        "L1Cache.miss_mach_latency_hist_seqr::mean": 48.345821,
+        "L2Cache.miss_mach_latency_hist_seqr::mean": 76.468845,
+        "total_cycles": 155419013,
+        "max_per_cpu_cycles": 38864760
+    },
+    "L2Caches": {
+        "0": {
+            "L2_hits": 9108,
+            "L2_misses": 434769,
+            "evictions": 0
+        },
+        "1": {
+            "L2_hits": 8631,
+            "L2_misses": 433546,
+            "evictions": 0
+        }
+    },
+    "L3Cache": {
+        "L3_hits": 0,
+        "L3_misses": 0,
+        "L3_evictions": 0
+    },
+    "cpus": {
+        "0": {
+            "per_cpu_cycles": 38864760,
+            "numInsts": 2845961,
+            "idleFraction": 0.676795,
+            "m_demand_hits": 3941384,
+            "m_demand_misses": 222736,
+            "m_evictions": 1513
+        },
+        "1": {
+            "per_cpu_cycles": 38851613,
+            "numInsts": 2792520,
+            "idleFraction": 0.681717,
+            "m_demand_hits": 3854640,
+            "m_demand_misses": 221102,
+            "m_evictions": 6
+        },
+        "2": {
+            "per_cpu_cycles": 38851320,
+            "numInsts": 2791668,
+            "idleFraction": 0.681628,
+            "m_demand_hits": 3853435,
+            "m_demand_misses": 221058,
+            "m_evictions": 8
+        },
+        "3": {
+            "per_cpu_cycles": 38851320,
+            "numInsts": 2786594,
+            "idleFraction": 0.681871,
+            "m_demand_hits": 3845701,
+            "m_demand_misses": 221125,
+            "m_evictions": 6
+        }
+    }
+}
